@@ -1,0 +1,248 @@
+:root {
+  --main-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --text-color-white: #ffffff;
+  --text-color-contacts-footer: rgba(255, 255, 255, 0.6);
+  --text-color-logo: #000000;
+  --hover-color-button: #188ce8;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Логотип */
+.logo {
+  color: var(--text-color-logo);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-web:hover,
+.logo:hover,
+.logo-web:focus,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* Навигация сайта */
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Контакты */
+.contact-tel,
+.contact-mail {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact-mail:hover,
+.contact-tel:hover,
+.contact-mail:focus,
+.contact-tel:focus {
+  color: var(--accent-color);
+}
+
+/* Секция герой */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  color: var(--text-color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--text-color-white);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-color-button);
+}
+
+/* Секция преимущества */
+.list-advantages .text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.list-advantages .title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Секция Чем мы занимаемся */
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Секция наша команда */
+.list-team .text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: var(--third-background-color);
+}
+
+.team .list-team {
+  background-color: var(--main-background-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.footer .contacts {
+  font-style: normal;
+}
+
+.logo-footer {
+  color: var(--text-color-white);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-web:hover,
+.logo-footer:hover,
+.logo-web:focus,
+.logo-footer:focus {
+  color: var(--accent-color);
+}
+
+.list-contacts .link-address {
+  color: var(--text-color-white);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.list-contacts .link {
+  color: var(--text-color-contacts-footer);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.list-contacts .link-address:hover,
+.list-contacts .link:hover,
+.list-contacts .link-address:focus,
+.list-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Портфолио */
+.button {
+  background-color: var(--third-background-color);
+  color: var(--main-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--text-color-white);
+}
+
+.list-examples .title {
+  color: var(--main-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.list-examples .text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
